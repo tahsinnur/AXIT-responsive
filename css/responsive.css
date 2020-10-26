@@ -1,0 +1,351 @@
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .banner{
+    height: auto;
+    padding: 60px 0;
+  }
+  .banner-text{
+    height: auto;
+  }
+  .banner-text h1{
+    font-size: 22px;
+  }
+  .banner .banner-form{
+    height: auto;
+  }
+  .banner-form .card {
+    margin-left: 0;
+  }
+  .social-icon{
+    margin-top: 12px;
+  }
+  .social-icon ul li a i {
+    font-size: 35px;
+    margin-left: 10px;
+  }
+  .social-content p{
+    font-size: 13px;
+    margin-top: -12px;
+  }
+  .social-content h1{
+    font-size: 16px;
+  }
+  .feature-1 {
+    padding: 30px 0;
+  }
+  .item-1 h3 {
+    font-size: 22px;
+  }
+  .item-1 p {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 2px;
+  }
+  .item-1 button{
+    padding: 10px 20px;
+  }
+  .item-2 h3 {
+    font-size: 22px;
+  }
+  .item-2 p {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 2px;
+  }
+  .item-2 button{
+    padding: 10px 20px;
+  }
+  .item-3 h3 {
+    font-size: 22px;
+  }
+  .item-3 p {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 2px;
+  }
+  .item-3 button{
+    padding: 10px 20px;
+  }
+
+  .feature-1 ul li {
+    height: 106px;
+    width: 100px;
+  }
+
+  .feature-2{
+    padding: 30px 0;
+  }
+  .feature-2 .row{
+    flex-direction: column;
+  }
+  .feature-2-content {
+    padding-left: 0;
+  }
+  .feature-2 .row .col-md-6{
+    max-width: 100%;
+    text-align: center;
+  }
+  .feature-2 .line-2{
+    margin: 20px auto;
+  }
+  .feature-2-bottom-1{
+    align-items: center;
+  }
+  .feature-2-bottom-2{
+    align-items: center;
+  }
+  
+  .feature-2-bottom-1 i{
+    margin-bottom: 10px;
+  }
+  .feature-2-bottom-2 i{
+    margin-bottom: 10px;
+  }
+  
+  .feature-2-bottom-2 .circle-1{
+    left: 32%;
+  }
+  .feature-2-bottom-1 .circle-1{
+    left: 32%;
+  }
+
+  .feature-3{
+    padding: 30px 0;
+  }
+  .feature-3 .row{
+    flex-direction: column;
+  }
+  .feature-3 .row .col-md-6{
+    max-width: 100%;
+    text-align: center;
+  }
+  .feature-3 .line-2{
+    margin: 20px auto;
+  }
+
+  .process {
+    padding: 30px 0;
+  }
+  .circle-2{
+    top: 10%;
+    left: 38%;
+  }
+
+  .pricing {
+    padding: 30px 0;
+  }
+  .price-table {
+    margin-top: 30px;
+  }
+
+  .testimonial {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .customer-comment {
+    padding: 0;
+  }
+  .customer-comment .comment-box {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .custom-panel{
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .contact {
+    padding-top: 30px;
+  }
+  .contact-form .form-control {
+    margin-bottom: 10px;
+  }
+  .contact-form .contact-btn{
+    margin: 0 auto;
+    margin-top: 10px; 
+  }
+
+  footer{
+    margin-top: 20px;
+  }
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .banner{
+    height: auto;
+    padding-top: 20px; 
+  }
+  .banner-text {
+    height: auto;
+    text-align: center;
+  }
+  .banner-text .line {
+    margin: 30px auto;
+  }
+  .banner-text h1 {
+    font-size: 27px;
+  }
+  .banner .banner-form{
+    height: auto;
+    align-items: flex-start;
+    padding: 20px 0;
+  }
+  .banner-form .card{
+    margin-left: 0; 
+  }
+
+  .social-media {
+    text-align: center;
+  }
+  .social-icon ul li a i {
+    font-size: 35px;
+    margin-left: 10px;
+  }
+
+  .feature-1 {
+    padding: 20px 0;
+  }
+  .feature-1 ul li{
+    display: inline-block;
+    height: 100px;
+    width: 107px;
+  }
+  .feature-1 .col-md-6{
+    text-align: center;
+  }
+  .item-1 p {
+    margin: 8px 0;
+  }
+  .item-2 p {
+    margin: 8px 0;
+  }
+  .item-3 p {
+    margin: 8px 0;
+  }
+  .feature-1 .col-md-4 img{
+    margin-top: 5px;
+  }
+
+  .feature-2 {
+    padding: 0;
+    text-align: center;
+  }
+  .feature-2-content {
+    padding-left: 0;
+  }
+  .line-2 {
+    margin: 20px auto;
+  }
+  .circle-1 {
+    top: -2%;
+    left: 44%;
+  }
+  .feature-2-bottom-1 i{
+    margin-bottom: 10px;
+  }
+  .feature-2-bottom-2 i{
+    margin-bottom: 10px;
+  }
+
+  .feature-3 {
+    padding: 0;
+    text-align: center;
+  }
+  .feature-3-img {
+    padding-left: 0;
+  }
+
+  .process {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .process-content h1 {
+    font-size: 29px;
+  }
+  .process-content-1 {
+    margin-top: 10px;
+  }
+  .circle-2 {
+    top: -4%;
+    left: 42%;
+  }
+
+  .pricing {
+    padding: 20px 0;
+  }
+  .pricing-title h1 {
+    font-size: 29px;
+  }
+  .price-table {
+    margin-top: 20px;
+  }
+
+  .testimonial {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .testimonial-title h1 {
+    font-size: 29px;
+  }
+  .customer-comment {
+    padding: 10px 0;
+  }
+  .customer-comment .comment-box {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+  .user-info .col-md-4 {
+    text-align: center;
+  }
+  .user-info .col-md-8 {
+    text-align: center;
+  }
+  .box-icon {
+    left: 153px;
+  }
+  .msg-box {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .custom-panel{
+    height: auto;
+    padding: 6px;
+  }
+  .custom-panel h1 {
+    font-size: 27px;
+  }
+  .custom-panel p {
+    margin: 0;
+  }
+
+  .contact {
+    padding-top: 20px;
+  }
+  .contact-form {
+    padding-top: 10px;
+  }
+  .contact .contact-title h1 {
+    font-size: 29px;
+  }
+  .contact-form .contact-btn {
+    margin: 0 auto;
+  }
+
+  footer {
+    margin-top: 20px;
+  }

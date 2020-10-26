@@ -633,7 +633,8 @@ header{
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 50vh;
+	height: auto;
+	padding: 58px;
 	display: flex;
 	align-items: center;
 }
